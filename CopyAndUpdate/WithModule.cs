@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace CopyAndUpdate
 {
-    public static class WithModule
+    internal static class WithModule
     {
         internal static TObject Template<TObject>(
             TObject target,
